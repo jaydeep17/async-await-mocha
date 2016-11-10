@@ -1,0 +1,30 @@
+{
+  "name": "async-await-mocha",
+  "version": "1.0.0",
+  "description": "A small demo project to try out async/await with mocha for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register --require babel-polyfill test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydeep17/async-await-mocha.git"
+  },
+  "author": "Jaydeep Solanki <jaydp17@gmail.com> (https://jaydp.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaydeep17/async-await-mocha/issues"
+  },
+  "homepage": "https://github.com/jaydeep17/async-await-mocha#readme",
+  "devDependencies": {
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1"
+  }
+}
